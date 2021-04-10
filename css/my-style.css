@@ -1,0 +1,107 @@
+@font-face {
+    font-family: monsterat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: monsterat-light;
+    src: url(../fonts/Montserrat-ExtraLight.ttf);
+}
+
+
+@font-face {
+    font-family: monsterat-bold;
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+
+
+html body {
+    font-family: monsterat;
+}
+
+.navbar .collapse .navbar-nav li a {
+    font-size: 14px;
+}
+
+.nav-item.active {
+    font-family: monsterat-bold;
+}
+
+.bg-primary-custom {
+    background-color: #1159A7;
+}
+
+.btn-primary-custom {
+    background-color: #1159A7;
+    color: rgb(228, 228, 228);
+}
+
+.btn-primary-custom:hover {
+    background-color: #0d3f74;
+    color: white;
+}
+
+.text-primary-custom {
+    color: #1159A7;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: rgb(105, 105, 105);
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  border: none;
+}
+
+.judul-radius {
+    border-radius: 0px 50px 0px 0px;
+}
+
+.teks-space {
+    line-height: 1.5;
+}
+
+.bg-footer {
+    background-image: url(../img/footer/anak.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border-footer {
+    border: 1px solid rgb(228, 228, 228);
+}
+
+.fa-color {
+    color: #1159A7;
+    transition: .3s;
+}
+
+.fa-color:hover {
+    color: #007bff;
+    transition: .3s;
+}
+
+.tmblscroll {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 2000;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+@media (max-width: 575.98px) {
+    .tmblscroll {
+        position: absolute;
+        bottom: 80px;
+        right: 20px;
+        z-index: 2000;
+    }
+}
