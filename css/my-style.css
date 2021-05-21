@@ -1,22 +1,5 @@
-@font-face {
-    font-family: monsterat;
-    src: url(../fonts/Montserrat-Regular.ttf);
-}
-
-@font-face {
-    font-family: monsterat-light;
-    src: url(../fonts/Montserrat-ExtraLight.ttf);
-}
-
-
-@font-face {
-    font-family: monsterat-bold;
-    src: url(../fonts/Montserrat-SemiBold.ttf);
-}
-
-
 html body {
-    font-family: monsterat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .navbar .collapse .navbar-nav li a {
